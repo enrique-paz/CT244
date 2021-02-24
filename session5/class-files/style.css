@@ -1,2 +1,71 @@
 @charset "utf-8";
 /* CSS Document */
+
+* {
+	font-weight:normal;
+	font-size:100%;
+	margin:0;
+	padding:0;
+}
+html {
+	background-color:gray;
+}
+body {
+	background-color:white;
+}
+header {
+	background-color:cornflowerblue;
+	padding:50px;
+	font-size:38px;
+	text-align:left;
+	color:white;
+	position:relative;
+}
+footer {
+	background-color:black;
+	color:white;
+	margin-top:20px;
+	padding:15px;
+	text-align: center;
+}
+h2 {
+	font-size:46px;
+	text-align:center;
+	text-transform:uppercase;
+}
+section {
+	padding-top:120px;
+	padding-bottom:120px;
+	background-image:url(images/flower-bkg.jpg);
+	background-size:cover;
+	margin-bottom:20px;
+}
+main {
+	max-width:960px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:white;
+	position:relative;
+	bottom:100px;
+	padding:25px;
+}
+h1 {
+	display:inline;
+	vertical-align:bottom;
+}
+.wrap {
+	float:left;
+}
+div {
+	clear:left;
+}
+.logo {
+	position:absolute;
+	right:0;
+	bottom:-50px;
+}
+
+
+
+
+

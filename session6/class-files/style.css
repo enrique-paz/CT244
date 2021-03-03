@@ -2,8 +2,8 @@
 /* CSS Document */
 
  * {
-      margin:0;
-      padding:0;
+     margin:0;
+	 padding:0;
       font-size:104%;
       line-height:28px;
     }
@@ -11,7 +11,7 @@
       font-family: 'Raleway', sans-serif;
     }
     section {
-      width:960px;
+      max-width:960px;
       margin-left:auto;
       margin-right:auto;
       padding:20px 0;
@@ -31,7 +31,7 @@
       margin:15px 0;
     }
     main {
-      width:960px;
+      max-width:960px;
       margin-left:auto;
       margin-right:auto;
     }
@@ -59,3 +59,54 @@ footer {
   color:white;
 }
 /* ADD CSS BELOW */
+
+nav ul {
+	list-style-type:none;
+	display:flex;
+	justify-content:space-around;
+	flex-wrap:wrap;
+}
+nav a {
+	text-decoration:none;
+	color:green;
+	font-size:30px;
+	padding-top:20px;
+	padding-bottom:20px;
+	display:block;
+	padding-left:30px;
+	padding-right:30px;
+	transition-property:all;
+	transition-duration:.8s;
+}
+nav a:hover {
+	background-color:green;
+	color:white;
+	padding-left:60px;
+	padding-right:60px;
+}
+.col {
+	display:inline-block;
+	width:600px;
+	padding-left:25px;
+	vertical-align:top;
+}
+.flexcol {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+}
+section div {
+	width:300px;
+}
+header {
+	background: linear-gradient(90deg, rgba(23,13,210,1) 0%, rgba(9,121,44,1) 45%, rgba(0,212,255,1) 66%);
+}
+
+
+
+
+
+
+
+
+

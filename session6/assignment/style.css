@@ -65,3 +65,6 @@ figcaption {
 	background-color:black;
 	color:white;
 }
+div {
+	display:flex;
+}

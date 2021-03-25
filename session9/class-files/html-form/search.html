@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Search</title>
+<style type="text/css">
+	
+	body {
+		width:1280px;
+		margin:200px auto 0}
+	h1 {
+		color:steelblue;
+		font-size:64px;
+		text-align: center;
+		font-family: sans-serif
+	}
+	input {
+		display:block;
+		color:darkgray;
+		font-size:24px;
+		padding:10px;
+	}
+	form {
+		display:flex;
+		justify-content:center;
+	}
+	form input:nth-child(1) {
+		flex:3;
+		margin-right:25px;
+		border-bottom-style:solid;
+		border-bottom-color:darkgray;
+		border-bottom-width:1px;
+		border-top:none;
+		border-left:none;
+		border-right:none;
+	}
+	form input:nth-child(2) {
+		flex:1;
+		background-color:orange;
+		border:none;
+		border-radius:25px;
+	}
+	
+	</style>
+</head>
+
+<body>
+
+<h1>Search</h1>
+	
+	<form action="" method="get" name="search_form">
+
+		<input type="search" name="search_query" placeholder="enter a search query">
+		<input type="submit" value="search">
+
+
+	</form>
+	
+</body>
+</html>
